@@ -1,8 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/**
+ * main - Entry point
+ *
+ *Desription: this code generate a randome number
+ *
+ *Return: always (0) for success
+*/
 int main(void)
 {
 	int n;
