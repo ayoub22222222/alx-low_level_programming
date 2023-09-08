@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  * Description: a new function
  * Return: alwys return success
 */
+
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
