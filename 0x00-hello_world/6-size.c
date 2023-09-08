@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * Description: a new function
- * Return: alwys return success
+ * Description: using a sizeof to print the size of various types.
+ * Return: always 0 (success)
 */
 
 int main(void)
@@ -15,4 +15,3 @@ int main(void)
 	printf("Size of a float: %lu byte(s)\n", sizeof(float));
 	return (0);
 }
-
