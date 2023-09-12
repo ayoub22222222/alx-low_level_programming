@@ -1,4 +1,5 @@
-#include <main.h>
+#include "main.h"
+
 /**
  * main - Entry point
  *
@@ -6,10 +7,15 @@
  *
  *Return: always (0) for success
 */
-int main(void)
+int main(void) 
 {
-	char *name = "putchar";
+	char str[] = "_putchar";
+	int ch;
 
-	printf("%s\n", name);
-	return (0);
+	for (ch = 0; ch < 8; ch++) 
+		_putchar(str[ch]);
+	
+	_putchar('\n');
+		return (0);
+	
 }
