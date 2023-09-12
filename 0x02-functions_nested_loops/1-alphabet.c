@@ -1,11 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - utilizes on the _putchar function to print
  *
- *Desription: this code generate a randome number
- *
- *Return: always (0) for success
 */
 
 void print_alphabet(void)
