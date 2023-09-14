@@ -1,9 +1,9 @@
-#include "main.h"
+#include "main.ih"
 /**
  * print_to_98 - print int to 98 count
  *	separated by comma. followed
  *	by space should be printed by
- *	order
+ *	orderi
  * @n: input
  *
 */
@@ -11,13 +11,25 @@ void print_to_98(int n)
 {
 	int n;
 
-	for (i = n; i <= 98; i++)
+	if (n > 98)
 	{
-		printf("%d", i);
-		putchar(',');
-		putchar(' ');
+		for (i = n; i >= 98; i--)
+		{
+			printf("%d", i);
+			putchar(',');
+			putchar(' ');
+		}
 	}
-
-	putchar('\n');
+		putchar('\n');
+	else
+	{
+		for (i = n; i <= 98; i++)
+			{
+				printf("%d", i);
+				putchar(',');
+				putchar(' ');
+			}
+	}
+		putchar('\n');
 	return (0);
 }
