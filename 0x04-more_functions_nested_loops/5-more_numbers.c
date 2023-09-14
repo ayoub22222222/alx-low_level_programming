@@ -1,19 +1,27 @@
 #include "main.h"
 /**
- * more_numbers -give number for 0 to 9 ten time
+ * more_numbers - give number for 0 to 9 ten time
+ *
  * Return: return 0 to 10 ten timee
 */
 void more_numbers(void)
 {
-	int a;
-	int i;
+	int num;
+	int r;
+	int count;
 
-	a = 0;
-	while (a < 10)
+	for (r = 1; r <= 10; r++)
 	{
-		for (i = 0; i <= 14; i++)
-			_putchar(i + '0');
-	_putchar('\n');
-	++a;
+	for (count = 0; count <= 14; count++)
+	{
+	num = count;
+	if (count > 9)
+	{
+	putchar(1 + 48);
+	num = count % 10;
+	}
+	putchar(num + 48);
+	}
+	putchar('\n');
 	}
 }
