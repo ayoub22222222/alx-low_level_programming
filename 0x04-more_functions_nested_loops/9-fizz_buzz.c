@@ -8,15 +8,17 @@
 */
 int main(void)
 {
+
 	int i;
 
 	for (i = 0; i <= 100; i++)
+	{
 	if (i % 3 == 0 && i % 5 == 0)
 	{
 	printf("%i FizzBuzz", i);
 	putchar(' ');
 	}
-	else if (i % 3 == 0 !(i % 5 == 0))
+	else if (i % 3 == 0 && !(i % 5 == 0))
 	{
 	printf("%i Fizz", i);
 	putchar(' ');
@@ -26,6 +28,6 @@ int main(void)
 	printf("%i Buzz", i);
 	putchar(' ');
 	}
+	}
 	putchar('\n');
-	return (0);
 }
