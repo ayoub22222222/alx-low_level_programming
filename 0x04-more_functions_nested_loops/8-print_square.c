@@ -4,11 +4,10 @@
  * @size: n is a number that you will take to print the line
  * Return: print the number of line giving by n number
 */
-int  print_square(int size)
+void  print_square(int size)
 {
 	int row;
 	int column;
-	int size;
 
 	if (size <= 0)
 	{
@@ -22,5 +21,4 @@ int  print_square(int size)
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
