@@ -13,17 +13,17 @@ int main(void)
 	for (i = 0; i <= 100; i++)
 	if (i % 3 == 0 && i % 5 == 0)
 	{
-	printf("FizzBuzz");
+	printf("%i FizzBuzz", i);
 	putchar(' ');
 	}
 	else if (i % 3 == 0)
 	{
-	printf("Fizz");
+	printf("%i Fizz", i);
 	putchar(' ');
 	}
 	else if (i % 5 == 0)
 	{
-	printf("Buzz");
+	printf("%i Buzz", i);
 	putchar(' ');
 	}
 	putchar('\n');
