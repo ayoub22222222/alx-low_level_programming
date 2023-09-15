@@ -9,12 +9,12 @@ void print_square(int size)
 	int m = 1;
 
 	if (size <= 0)
-	_putchar('\n');
+		_putchar('\n');
 
 	do {
 	if (size > 0)
-	_putchar('#');
-	++m;
+		_putchar('#');
+		++m;
 	} while (m <= n);
 	_putchar('\n');
 }
