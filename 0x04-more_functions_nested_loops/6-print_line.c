@@ -6,7 +6,7 @@
 */
 void print_line(int n)
 {
-	int b = 1;
+	int m = 1;
 
 	if (n <= 0)
 		_putchar('\n');
@@ -14,7 +14,7 @@ void print_line(int n)
 	do {
 		if (n > 0)
 		_putchar('_');
-		++b;
-	} while (b <= n);
+		++m;
+	} while (m <= n);
 	_putchar('\n');
 }
