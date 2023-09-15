@@ -4,7 +4,7 @@
  * @size: n is a number that you will take to print the line
  * Return: print the number of line giving by n number
 */
-void print_square(int size)
+int  print_square(int size)
 {
 	int row;
 	int column;
