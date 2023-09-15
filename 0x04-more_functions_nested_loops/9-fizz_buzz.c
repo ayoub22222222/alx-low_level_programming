@@ -13,20 +13,20 @@ int main(void)
 
 	for (i = 0; i <= 100; i++)
 	{
-	if (i % 3 == 0 && i % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 	{
-	printf("%i FizzBuzz", i);
-	putchar(' ');
+		printf("%i FizzBuzz", i);
+		putchar(' ');
 	}
 	else if (i % 3 == 0)
 	{
-	printf("%i Fizz", i);
-	putchar(' ');
+		printf("%i Fizz", i);
+		putchar(' ');
 	}
 	else if (i % 5 == 0)
 	{
-	printf("%i Buzz", i);
-	putchar(' ');
+		printf("%i Buzz", i);
+		putchar(' ');
 	}
 	}
 	putchar('\n');
