@@ -28,6 +28,8 @@ int main(void)
 		printf("%i Buzz", i);
 		putchar(' ');
 	}
+	else
+		printf("%i", i);
 	}
 	putchar('\n');
 	return (0);
