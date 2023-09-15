@@ -15,6 +15,6 @@ void print_square(int size)
 	if (size > 0)
 		_putchar('#');
 		++m;
-	} while (m <= n);
+	} while (m <= size);
 	_putchar('\n');
 }
