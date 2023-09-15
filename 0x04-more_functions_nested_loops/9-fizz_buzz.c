@@ -18,12 +18,12 @@ int main(void)
 	printf("%i FizzBuzz", i);
 	putchar(' ');
 	}
-	else if (i % 3 == 0 && !(i % 5 == 0))
+	else if (i % 3 == 0)
 	{
 	printf("%i Fizz", i);
 	putchar(' ');
 	}
-	else if (i % 5 == 0 && !(i % 3 == 0))
+	else if (i % 5 == 0)
 	{
 	printf("%i Buzz", i);
 	putchar(' ');
