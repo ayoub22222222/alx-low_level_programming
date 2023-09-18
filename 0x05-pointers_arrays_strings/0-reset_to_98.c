@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
  * reset_to_98 - take a variable that point to an integer
  * @n: intger value
