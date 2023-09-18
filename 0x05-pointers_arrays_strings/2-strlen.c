@@ -9,7 +9,7 @@
 */
 int _strlen(char *s)
 {
-	results = strlen(s);
+        int results = strlen(s);
 
 	return (results);
 }
