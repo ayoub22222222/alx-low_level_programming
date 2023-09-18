@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 /**
  * _strlen - take a pointers as a parameters
  * @s: is charactaer data type with name of s
