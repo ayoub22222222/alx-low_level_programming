@@ -5,12 +5,10 @@
  * @str: is the name of the variable
  * Return: print a string followed by new line
 */
-void	_puts(char *str)
+void _puts(char *str)
 {
-	char s[] = str;
-	int i;
-
-	for (i = 0; i <= strlen(s); i++)
-		_putchar(s[i]);
+	while (str != '\0')
+		_putchar(*str + 0);
+		str++;
 	_putchar('\n');
 }
