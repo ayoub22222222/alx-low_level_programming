@@ -9,12 +9,12 @@ char *_stract(char *dest, char *scr)
 {
 	int a, a2;
 
-	c = 0;
+	a = 0;
 
 	while (dest[a])
 		a++;
 	for (a2 = 0; src[a2]; a2++)
-		dest[c++] = src[c2];
+		dest[a++] = src[a2];
 
 	return (dest);
 
