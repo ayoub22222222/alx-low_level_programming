@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _stract - function that take two argument
+ * _strcat - function that take two argument
  * @dest: is array pointer
- * @scr: its also an array
+ * @src: its also an array
  * Return: concantinate two string
 */
-char *_stract(char *dest, char *scr)
+char *_strcat(char *dest, char *src)
 {
 	int a, a2;
 
@@ -13,8 +13,9 @@ char *_stract(char *dest, char *scr)
 
 	while (dest[a])
 		a++;
-	for (a2 = 0; scr[a2]; a2++)
-		dest[a++] = scr[a2];
+
+	for (a2 = 0; src[a2]; a2++)
+		dest[a++] = src[a2];
 
 	return (dest);
 
