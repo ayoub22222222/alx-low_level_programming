@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - function that take two argument
+ * _strcat - function that take two argument
  * @dest: is array pointer
  * @src: is number of the element of an array
  * @n: represent byte from src
