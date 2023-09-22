@@ -13,8 +13,8 @@ char *_stract(char *dest, char *scr)
 
 	while (dest[a])
 		a++;
-	for (a2 = 0; src[a2]; a2++)
-		dest[a++] = src[a2];
+	for (a2 = 0; scr[a2]; a2++)
+		dest[a++] = scr[a2];
 
 	return (dest);
 
