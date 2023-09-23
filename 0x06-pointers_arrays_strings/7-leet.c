@@ -19,8 +19,8 @@ char *leet(char *c)
 			{
 				*c = 48 + number[j];
 			}
-			c++;
 		}
+		c++;
 	}
 	return (pc);
 }
