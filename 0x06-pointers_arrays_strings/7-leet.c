@@ -13,11 +13,11 @@ char *leet(char *c)
 
 	while (*c)
 	{
-		for (j = 0; j < sizeof(items) sizeof(char); j++)
+		for (j = 0; j < sizeof(items) / sizeof(char); j++)
 		{
 			if (*c == items[j] || *c == items[j] + 32)
 			{
-				*c = 48 + number[i];
+				*c = 48 + number[j];
 			}
 			c++;
 		}
