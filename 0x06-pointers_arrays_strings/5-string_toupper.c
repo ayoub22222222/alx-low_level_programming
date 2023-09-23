@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * string_toupper - function take string as an argument
  * @str: string input
@@ -15,5 +15,5 @@ char *string_toupper(char *str)
 			str[a] = str[a] - 32;
 		}
 	}
-	return (str)
+	return (str);
 }
