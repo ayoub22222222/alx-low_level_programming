@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * _strcmp - function that take two argument as a pametter
  * @s1: input string number1
