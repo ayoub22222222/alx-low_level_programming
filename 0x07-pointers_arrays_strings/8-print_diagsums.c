@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagsums - function take two param pointer and varaiable
  * @a: pointer
