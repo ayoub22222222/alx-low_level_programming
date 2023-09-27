@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * print_diagsums - function take two param pointer and varaiable
- * @a: pointer
- * @size: variable
+ * @a: pointer that point int an adress memory
+ * @size: take a size as var
  * Return: return the sum of two diagonal.
  */
 void print_diagsums(int *a, int size)
