@@ -5,7 +5,7 @@
  * @accept: is a pointer
  * Return: return the length of a prefix substring.
  */
-unsigned int _strspn(char *s, char *accept)
+unsigned int_strspn(char *s, char *accept)
 {
 	unsigned int j = 0;
 	char a = accept;
