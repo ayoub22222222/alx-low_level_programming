@@ -4,9 +4,9 @@
  * print_diagsums - function take two param pointer and varaiable
  * @a: pointer that point int an adress memory
  * @size: take a size as var
- * Return: return the sum of two diagonal.
+ * Return: always 0 (Success).
  */
-void print_diagsums(int a, int size)
+void print_diagsums(int *a, int size)
 {
 	int i;
 
