@@ -6,7 +6,7 @@
  * @n: its a variable that take the number of bytes
  * Return: this function take the char b and replace it into the memory adrees
 */
-char _memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int a;
 
