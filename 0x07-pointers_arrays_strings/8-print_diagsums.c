@@ -6,7 +6,7 @@
  * @size: take a size as var
  * Return: always 0 (Success).
  */
-void print_diagsums(int *a, int size)
+void print_diagsums(int *a, int *size)
 {
 	int i;
 
