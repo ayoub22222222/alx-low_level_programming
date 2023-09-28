@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * factorial - is a	function that take one parametter as an integer
  * @n: integer number
