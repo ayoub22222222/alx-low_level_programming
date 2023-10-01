@@ -3,6 +3,7 @@
 /**
  * is_prime_number - check if n is prime number
  * @othrn: int
+ * @n: int
  * Return: return bolean value 0 or 1
  */
 int check_prime(int n, int othrn);
