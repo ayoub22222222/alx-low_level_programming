@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * is_prime_number - check if n is prime number
