@@ -10,18 +10,19 @@ char *_strdup(char *str)
 {
 	int i;
 	int r;
+	char *pstr;
 
 	r = 0;
 
 	while (str[r] != '\0')
 		r++;
 
-	char *pstr = malloc(sizeof(char) * (r + 1);
+	pstr = malloc(sizeof(char) * (r + 1);
 
 	if (pstr == NULL)
 		return (NULL);
 
-	for (i = 0; i <= size; i++)
+	for (i = 0; i < size; i++)
 		pstr[i] = str[i];
 	return (pstr);
 }
