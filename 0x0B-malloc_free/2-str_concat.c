@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlin.h>
+#include <stdlib.h>
 /**
  * str_concat - function that take two param as pointer
  * @s1: character
@@ -19,9 +19,13 @@ char *str_concat(char *s1, char *s2)
 
 	i = ci = 0;
 	while (s1[i] != '\0')
+	{
 		i++;
+	}
 	while (s2[ci] != '\0')
+	{
 		ci++;
+	}
 	conct = malloc(sizeof(char) * (i + ci + 1));
 
 	if (conct == NULL)
