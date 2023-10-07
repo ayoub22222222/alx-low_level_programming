@@ -4,21 +4,17 @@
  * main - Entry point
  * @argc: argument counter
  * @argv: argument vector
- * Return: return 0
+ * Return: return successs
 */
 int main(int argc, char *argv[])
 {
-	int sum = 0;
+	int i;
+	int counter;
 
-	char *c;
+	counter = 0;
 
-	while (--argc)
-	{
-		for (c = argv[argc]; *c; c++)
-			if (*c < '0' || *C > '9')
-				return (printf("Error\n"), 1);
-		sum += atoi(argv[argc]);
-	}
-	printf("%d\n", sum);
-	return (0);
+	for (i = 0; i <= argc; i++)
+		if (argc != 0)
+			counter += argv[i];
+	return (counter);
 }
