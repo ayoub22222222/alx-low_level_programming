@@ -5,19 +5,27 @@
  * _calloc - function that take two variables as param
  * @nmemb: int
  * @size: int
- * Return: allocate a memory for an array
+ * Return: allocate a memory for an ar
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int i;
-	int *pnmemb =  malloc(sizeof(int) * size);
+	void *pnmemb;
 
 	if (nmemb == 0 || size == 0)
-		return (NULL);
-	if (pnmemb == NULL)
-		return (NULL);
-	for (i = 0; i < size;  i++)
-		pnmemb[i] = 0;
+	return (NULL);
 
-	return (nmemb);
+
+	size_t total_size = nmemb * size;
+
+	pnmemb = malloc(total_size);
+
+	if (pnmemb == NULL)
+	exit(EXIT_FAILURE);
+
+
+	for (i = 0; i < total_size; i++)
+	((char *)pnmemb)[i] = 0;
+
+	return (pnmemb);
 }
