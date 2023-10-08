@@ -1,20 +1,29 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
 /**
- * main - Entry point
- * @argc: argument counter
- * @argv: argument vector
- * Return: return successs
+ * check_num - check - string there are digit
+ * @str: array str
+ * Return: Always 0 (Success)
 */
-int main(int argc, char *argv[])
+int check_num(char *str)
 {
-	int i;
-	int counter;
+	unsigned int count;
 
-	counter = 0;
 
-	for (i = 0; i <= argc; i++)
-		if (argc != 0)
-			counter += argv[i];
-	return (counter);
+	count = 0;
+	while (count < strlen(str))
+
+
+	{
+		if (!isdigit(str[count]))
+		{
+			return (0);
+		}
+
+
+		count++;
+		}
+		return (1);
 }
+
