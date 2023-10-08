@@ -17,8 +17,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb == 0 or size == 0)
 		return (NULL);
 	if (pnmemb == NULL)
-		return (NULL);
-	for (i = 0; i <= size; i++)
-		(pnmemb + 1) = 0;
-	return (*pnmemb);
+		exit(NULL);
+	while (i <= size)
+		pnmemb[i] = 0;
+		i++;
+
+	return (*nmemb);
 }
