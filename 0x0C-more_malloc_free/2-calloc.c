@@ -16,7 +16,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	return (NULL);
 
 
-	size_t total_size = nmemb * size;
+	int total_size = nmemb * size;
 
 	pnmemb = malloc(total_size);
 
