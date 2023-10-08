@@ -10,16 +10,14 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	int i;
-	int *pnmemb;
-
-	pnmemb = malloc(sizeof(int) * size);
+	int *pnmemb =  malloc(sizeof(int) * size);
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 	if (pnmemb == NULL)
-		exit(NULL);
-	for (i = 0; i <= nmemb; i++)
+		return (NULL);
+	for (i = 0; i < nmemb; i++)
 		pnmemb[i] = 0;
 
-	return (*nmemb);
+	return (nmemb);
 }
