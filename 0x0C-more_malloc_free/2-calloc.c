@@ -9,23 +9,15 @@
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int i;
-	void *pnmemb;
+	char *calloc;
 
-	if (nmemb == 0 || size == 0)
-		return (NULL);
-
-
-	int total_size = nmemb * size;
-
-	pnmemb = malloc(total_size);
-
-	if (pnmemb == NULL)
-		exit(EXIT_FAILURE);
-
-
-	for (i = 0; i < total_size; i++)
-		((char *)pnmemb)[i] = 0;
-
-	return (pnmemb);
+	if (!nmemb || !size)
+	return (NULL);
+	calloc = malloc(nmemb * size);
+	if (!calloc)
+	return (NULL);
+	nmemb *= size;
+	while (nmemb--)
+	calloc[nmemb] = 0;
+	return (calloc);
 }
