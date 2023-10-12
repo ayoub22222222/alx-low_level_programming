@@ -1,6 +1,4 @@
 #include "variadic_functions.h"
-#include <stdarg.h>
-#include <stdio.h>
 /**
  * sum_them_all - vardiac function that take many argument
  * @n: constant int
