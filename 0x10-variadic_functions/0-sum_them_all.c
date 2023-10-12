@@ -3,6 +3,7 @@
 /**
  * sum_them_all - vardiac function that take many argument
  * @n: constant int
+ * @...: the inlimited number of argument
  * Return: sum values
 */
 int sum_them_all(const unsigned int n, ...)
