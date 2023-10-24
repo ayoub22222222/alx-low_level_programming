@@ -1,11 +1,11 @@
 #include "lists.h"
 /**
- * add_nodeint - function that take two argument
+ * add_nodeint_end - function that take two argument
  * @head: argument of the function
  * @n: the value of the given node
  * Return: the last new node
 */
-listint_t *add_nodeint(listint_t **head, const int n)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new_node = malloc(sizeof(listint_t));
 	listint_t *node;
