@@ -1,19 +1,27 @@
 #include "main.h"
 /**
- * binary_to_unit - function that take one parametter 
- * @b: argument 
- * Return: decimal representation of abinary number
- *
+ * binary_to_uint - function that take one parametter
+ * @b: argument
+ * Return: decimal representation of abinary n
 */
-unsigned int binary_to_uint(const char *b) {
-    int decimal = 0;
-    int length = strlen(b);
+unsigned int binary_to_uint(const char *b)
+{
+	int i;
+	unsigned int j;
 
-    for (int i = length - 1, j = 0; i >= 0; i--, j++) {
-        if (b[i] == '1') {
-            decimal += (1 << j); 
-        }
-    }
-
-    return decimal;
+	j = 0;
+	if (!b)
+		return (0);
+	for (i = 0; b[i] != '\0'; i++)
+	{
+		if (b[i] != '0' && b[i] != '1')
+			return (0);
+	}
+	for (i = 0; b[i] != '\0'; i++)
+	{
+		j <<= 1;
+		if (b[i] == '1')
+			j += 1;
+	}
+	return (j);
 }
