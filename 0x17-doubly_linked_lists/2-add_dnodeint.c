@@ -14,16 +14,17 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	if (head == NULL || new_one == NULL)
 		return (NULL);
 
-	new_one->n = n;
-	new_one->prev = NULL;
 
-	if (*head != NULL)
+
+	if (*head != NULL || new_one != NULL)
 	{
-		head->prev = new_one
+		new_one-> = n;
+		new_one->prev = NULL
+		*head->prev = new_one
 		new_one->next = head;
-		head = new_one;
+		*head = new_one;
 	}
-	return (&new_one);
+	return (*new_one);
 
 
 
