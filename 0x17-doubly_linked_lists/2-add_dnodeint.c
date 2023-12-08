@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * add_dnodeint - function add a node at begining of a linked list
  * @head: the head or the begining of the lined list
