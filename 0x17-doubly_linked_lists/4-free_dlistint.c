@@ -6,6 +6,8 @@
 */
 void free_dlistint(dlistint_t *head)
 {
+	dlistint_t current;
+
 	if (head == NULL)
 		return (NULL);
 	current = head->next;
