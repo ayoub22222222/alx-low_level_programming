@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 /**
  * add_dnodeint_end - function that insert a new node at the end of linked list
  * @head: argument
