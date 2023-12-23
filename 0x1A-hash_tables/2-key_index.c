@@ -7,14 +7,6 @@
 */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
-	int sum_of_alpha = 0
-	int i = 0;
-	int index = 0;
-
-	for (i = 0; i < strlen(key); i++)
-
-	sum_of_alpha += i;
-
-	index = sum_of_alpha % strlen(key);
-	return (index);
+	results = hash_djb2(key) % size;
+	return (results);
 }
