@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 /**
  * hash_table_get - function that retrieve a value into hash table
- * @ht: is ahash table 
+ * @ht: is ahash table
  * @key: character variable
  * Return: add a value into string
 */
