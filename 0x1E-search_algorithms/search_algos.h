@@ -1,8 +1,9 @@
-#ifndef SEARCH_ALGO_H
-#define SEARCH_ALGO_H
+#ifndef _SORTING_ALGOS_H_
+#define _SORTING_ALGOS_H_
 
+#include <stdlib.h>
 #include <stdio.h>
-#include <stdlib.h>#include <stdlib.h>#include <stdlib.h>
+
 
 
 int linear_search(int *array, size_t size, int value);
